@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoking Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smoking Counter App</h1>
+        <div class="counter">
+            <button id="increment-btn">Smoke</button>
+            <div id="counter-value">0</div>
+        </div>
+        <button id="generate-pdf">Generate PDF for Last 24 Hours</button>
+        <button id="reset-btn">Reset Counter</button>
+    </div>
+
+    <!-- Include jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+    <!-- Include your custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
